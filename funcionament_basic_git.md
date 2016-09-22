@@ -1,4 +1,4 @@
-COMANDES GIT
+# COMANDES GIT
 
 1. Per a clonar el nostre repositori git,
 	el primer que hem de fer és crear un
@@ -12,7 +12,7 @@ COMANDES GIT
 3. Fem un git status per veure si 
 	   ho estem fent bè.
 
-+ Fem un __git add__ <'nom del fitxer'>
++ Fem un __git add*__
 
 4. Després d'això, fem un __git commit__ -am 'amb el nom que vulguem'.
     
