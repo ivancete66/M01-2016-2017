@@ -1,4 +1,4 @@
-## COMANDES GIT
+# COMANDES GIT
 
 1. Per a clonar el nostre repositori git,
 	el primer que hem de fer és crear un
