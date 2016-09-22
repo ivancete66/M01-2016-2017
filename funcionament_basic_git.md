@@ -14,6 +14,6 @@
 
 + Fem un __git add*__
 
-4. Després d'això, fem un __git commit__ -am 'amb el nom que vulguem'.
+4. Després d'això, fem un __git commit__ -am 'versió'.
     
 5. I finalment, fem un __git push__ per pujar-lo a 'la nube', llavors quan estiguem en un altre lloc fem __git pull__ per poder editar-lo.
