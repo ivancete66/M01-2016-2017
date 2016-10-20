@@ -1,4 +1,4 @@
-Avui he apres git
+Avui he apres github
 Repositori del Mòdul 01 
 Montatge i Manteniment equips
 
