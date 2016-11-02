@@ -1,7 +1,7 @@
 # Busos externs d'un ordinador
 
 | Nom del bus | Velocitat |
-| -- | -- |
+| ----------- | --------- |
 | PCIe 1 | 32 Gbit/s (4 GB/s) |
 | PCIe 2 | 64 Gbit/s (8 GB/s) | 
 | PCIe 3 | 126 Gbit/s (15,8 GB/s) |
