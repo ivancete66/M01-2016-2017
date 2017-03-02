@@ -62,7 +62,7 @@ while sortir == False:
 				nombretabla = raw_input ("Introduzca el nombre de la tabla que quieras ver:")
 				sql = "SELECT * FROM" + nombretabla
 				cur.execute(sql);
-				##cur.execute("SELECT * FROM clientes");
+				##cur.execute("SELECT * FROM clientes ");
 				rows = cur.fetchall()
 				
 				if nombretabla == 'clientes':
