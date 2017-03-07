@@ -1,0 +1,44 @@
+Exercici rapid de greps y pipes
+
+1-
+
+
+
+grep -e ^3 -e s$ hola.txt
+
+-Este comando da la/s frase/s que empiece/n por 3 y que acabe por la letra s del documento hola.txt
+
+3- adiós adioss Adios
+4- Hello hola ho adios
+6- Adios adios
+
+
+cat hola.txt | grep ^3 | grep s$
+
+-Este comando da la/s frase/s que empiece/n por 3 o que acabe por la letra s del documento hola.txt
+
+3- adiós adioss Adios
+
+
+
+
+
+2-
+
+
+
+grep -e ^3 -e Adios$ hola.txt
+
+-Este comando da la/s frase/s que empiece/n por 3 y que acabe por Adios del documento hola.txt
+
+3- adiós adioss Adios
+
+
+
+
+
+cat hola.txt | grep ^3 | grep Adios$
+
+-Este comando da la/s frase/s que empiece/n por 3 y que acabe por Adios del documento hola.txt
+
+3- adiós adioss Adios

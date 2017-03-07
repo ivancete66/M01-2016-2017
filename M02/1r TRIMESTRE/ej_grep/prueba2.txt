@@ -1,0 +1,2 @@
+la hola prueba2.txt
+ad3 4adios adios prueba2.txt

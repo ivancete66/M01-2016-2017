@@ -1,0 +1,19 @@
+#!/bin/bash
+
+5.1
+
+30 8 12 7 * ism48086815 /home/users/inf/hism1/ism48086815/Documents/M02/CRON/MuestraUnHola
+
+5.2
+
+10-20 * * 9,12 2,4 ism48086815 /home/users/inf/hism1/ism48086815/Documents/M02/CRON/MuestraUnHola
+
+5.3
+
+00 23 15-25 * 1,3 ism48086815 /home/users/inf/hism1/ism48086815/Documents/M02/CRON/MuestraUnHola
+
+5.4
+
+*/10 19 26 3 * ism48086815 /home/users/inf/hism1/ism48086815/Documents/M02/CRON/MuestraUnHola
+
+Ivan Higueras Menendez
