@@ -1,27 +1,23 @@
-<<<<<<< HEAD
-os.system = clear
-=======
+#coding: utf8
 import os
 os.system('clear')
 
->>>>>>> 3070d1619cfbc756c244d3c0bf8c9feb1804b5e1
 print 'Que desea hacer el amo?'
-print '1- Sumar'
-print '2- Restar'
-print '3- Multiplicar'
-print '4- Dividir'
-print '5- Salir'
+print 'S.- Salir'
+print '1.- Sumar'
+print '2.- Restar'
+print '3.- Multiplicar'
+print '4.- Dividir'
 
-opcion = input("Elija una opcion: ")
+opcion = raw_input("Elija una opcion: ")
 
-if opcion == 5:
-	print 'Hasta otra!'
-
-<<<<<<< HEAD
-numero1=input("Introduce un numero:    ")
-numero2=input("Introduce otro numero:  ")
-=======
->>>>>>> 3070d1619cfbc756c244d3c0bf8c9feb1804b5e1
+if (opcion >= "1" and opcion <= "4") or opcion == 's' or opcion == 'S':
+	print "Está bien."
+else:
+	print "Esa opción no existe."
+	
+if opcion == 's' or opcion == 'S':
+	print "Hasta otra!"
 
 if opcion == 1:
 	
