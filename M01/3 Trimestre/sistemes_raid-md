@@ -1,0 +1,11 @@
+# Sistemes RAID
+
+1. Resum de sistemes RAID fent servir una taula com la vista a classe.
+
+|          | Nº Mínim discs | Nº Mínim discs fallats | Capacitat | Read | Write |
+| :------: | :------------: | :--------------------: | :-------: | :--: | :---: |
+|  RAID 0  | 2              | Nº Mínim discs fallats | Capacitat | Read | Write |
+|  RAID 1  | 2 (Màx.)       | Nº Mínim discs fallats | Capacitat | Read | Write |
+|  RAID 5  | 3              | Nº Mínim discs fallats | Capacitat | Read | Write |
+|  RAID 6  | 4              | Nº Mínim discs fallats | Capacitat | Read | Write |
+|  RAID 10 | 4              | Nº Mínim discs fallats | Capacitat | Read | Write |
