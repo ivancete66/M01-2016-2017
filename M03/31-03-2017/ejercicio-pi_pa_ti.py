@@ -31,3 +31,8 @@ if (j1 == "tijera") and (j2 == "piedra"):
 if (j1 == "tijera") and (j2 == "tijera"):
 	print "Hay un empate"
 	
+
+
+
+
+
