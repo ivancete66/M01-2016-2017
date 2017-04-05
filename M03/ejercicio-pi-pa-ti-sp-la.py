@@ -42,33 +42,3 @@ else:
 		print "Has ganado!"
 	else:
 		print "Has perdido!"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
