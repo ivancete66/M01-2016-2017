@@ -145,5 +145,5 @@ unused devices: <none>
 ```
 
 
-+ ##### Pràctica 4: Ampliació del volum lògic de dades al raid
++ #### Pràctica 4: Ampliació del volum lògic de dades al raid
 (pistes: pvcreate /dev/md0 .....vgextend practica1 /dev/md0 ...... lvextend -l 100%FREE /dev/practica1/dades......comprobar amb: lsbl.... i df -h )
