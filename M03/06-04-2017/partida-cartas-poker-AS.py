@@ -50,7 +50,7 @@ while (salir==False):
 		numero = "K"
 
 	if (jugador1==14):
-		numero = "As"
+		numero = "AS"
 			
 	print "Tienes un", numero , "de", palo1
 	
@@ -65,7 +65,7 @@ while (salir==False):
 		numero = "K"
 
 	if (jugador2==14):
-		numero = "As"
+		numero = "AS"
 			
 	print "Tu contrincante tiene un", numero , "de", palo2
 	
