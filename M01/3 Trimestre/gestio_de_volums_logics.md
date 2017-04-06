@@ -42,7 +42,7 @@ __LV:__
 ![titulo](1.png "titulo")
  
 
-+ ##### Pràctica 1: Creació d'un volum lògic a partir d'un dels tres discs durs (vda per exemple). Aquest volum lògic ha de ser del total de capacitat del disc. El volum de grup s'ha de dir practica1 i el volum lògic dades.
++ #### Pràctica 1: Creació d'un volum lògic a partir d'un dels tres discs durs (vda per exemple). Aquest volum lògic ha de ser del total de capacitat del disc. El volum de grup s'ha de dir practica1 i el volum lògic dades.
 (pistes:  ...pvcreate /dev/vda ....  ...vgcreate practica1 /dev/vda....  lvcreate -l 100%FREE ..... )
 
 ```
@@ -88,7 +88,7 @@ __LV:__
   ```
   
   
-  + ##### Pràctica 2: Creació d'un sistema de fitxers xfs al volum lògic creat i muntatge a /mnt. També s'ha de crear un fitxer amb dd de 180MB.
+  + #### Pràctica 2: Creació d'un sistema de fitxers xfs al volum lògic creat i muntatge a /mnt. També s'ha de crear un fitxer amb dd de 180MB.
 (pistes: ....mkfs.xfs /dev/practica1/dades ..... mount /dev/practica1/dad ....  /mnt)
 
 Creem el sistema de fitxers xfs:
@@ -118,7 +118,7 @@ Creem el fitxer de 180MB:
 184320000 bytes (184 MB, 176 MiB) copied, 0.340581 s, 541 MB/s
 ```
 
-+ ##### Pràctica 3: Creació d'un RAID 1 als dos discos sobrants (vdb i vdc per exemple)
++ #### Pràctica 3: Creació d'un RAID 1 als dos discos sobrants (vdb i vdc per exemple)
 (pistes: .... mdad.... --creat.. /dev/md0 --lev..=mirr.... --raid-devices=1 /dev/vdb /dev/vdc   comprobar fent cat /proc/mdstat......)
 
 Creem un RAID 1 amb els dos discs sobrants:
