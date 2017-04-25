@@ -13,6 +13,7 @@ salir2 = False
 salir3 = False
 
 while salir1 == False:
+	print ""
 	print "Tienes", money , "€"
 	print "Si quieres abandonar, pon -1."
 	
@@ -116,4 +117,3 @@ while salir1 == False:
 						
 						if not(jugador1 == jugador2):
 								salir2 = True
-				
