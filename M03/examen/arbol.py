@@ -1,7 +1,7 @@
 #coding:utf-8
 
-for fil in xrange(1,7,1):
-	for col in xrange(1,6,1):
+for fil in range(1,7,1):
+	for col in range(1,6,1):
 		if (fil == 1 and col == 3):
 			print "*",			
 		else:
