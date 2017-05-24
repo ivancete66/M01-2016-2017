@@ -60,16 +60,6 @@ for root, carpetes, arxius in os.walk(explorar):
 		print(ruta) 
 
 
-
-
-
-
-
-
-
-
-
-
 # Canviem els permissos dels arxius
 #print "Canviem els permissos dels arxius:"
 #print ""
@@ -77,18 +67,3 @@ for root, carpetes, arxius in os.walk(explorar):
  #   for nom in arxius:
 	#	permisos=os.chmod(arxius, permisos)
 	#	print ()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
