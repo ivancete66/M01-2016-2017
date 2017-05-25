@@ -53,6 +53,9 @@
         
     ·Activeu el servei firewalld. Indiqueu com ho feu.
         systemctl start firewalld.service
+    
+    ·Comproveu si ara es pot seguir accedint.
+		Només fent la comanda anterior, encara si que es pot, per evitar-ho, s'ha de fer: systemctl restart firewalld.service
      
 **3. Win 7**
 
@@ -78,3 +81,10 @@
         
     ·Es troba activat en aquest windows?
         Si
+    ·Busqueu un altre tallafocs per windows. Indiqueu la plana web i les prestacions que ens dona. Intenteu que NOMÉS sigui tallafocs.
+		TinyWall → Només necesita 1 MB de disc dur, no hi han pop-ups d'avís i funciona en segon pla; compta amb una llista blanca, una de bloqueigs per ports i dominis, restricció d'accés de las aplicacions, suport IPv6, bloqueigs per contrasenya i molt més.
+    
+    
+    
+    
+    
