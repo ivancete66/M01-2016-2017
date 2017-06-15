@@ -40,19 +40,7 @@ print ""
 for root, carpetes, arxius in os.walk(explorar):
     for nom in carpetes:
         imprimir_nom(nom)
-        
-imprimir_espacios()
-
-# Mostrem tot el que hi ha dins de la carpeta Futbol
-print "Mostrem tot el que hi ha dins de la carpeta Futbol:"
-print ""
-for root, carpetes, arxius in os.walk(explorar):
-    for nom in carpetes:
-        imprimir_nom(nom)
-        
-    for nom in arxius:
-        imprimir_nom(nom)
-        
+               
 imprimir_espacios()
 
 # Mostrem la ruta dels arxius
@@ -61,4 +49,4 @@ print ""
 for root, carpetes, arxius in os.walk(explorar):
     for nom in arxius:
         ruta=os.path.join(root, nom)
-        print(ruta)
+        print ruta
